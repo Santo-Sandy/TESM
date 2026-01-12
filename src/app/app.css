@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    header {
+      position: fixed;
+      margin: 0;
+      width: 100%;
+      max-width: 1800px;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.8);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    section {
+      height: 100vh;
+      padding: 120px 60px;
+    }
+
+    #home { background: linear-gradient(135deg,#242424,#f1f1f1)}
+    #about { background: #111; }
+    #courses { background: #222; }
+    #contact { background: #333; }
+
+    .logo {
+      font-size: 28px;
+      color: cyan;
+      font-weight: bold;
+    }
